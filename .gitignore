@@ -1,0 +1,23 @@
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Testing / coverage / cache
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environments
+.venv/
+venv/
+env/
+
+# Local testing generated vault files
+data/*.enc
+data/*.log
+!data/.gitkeep
+
+# OS specific
+.DS_Store
+Thumbs.db
